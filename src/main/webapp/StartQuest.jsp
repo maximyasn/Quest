@@ -20,10 +20,10 @@
  Вам приходится отправиться в опасное и загадочное путешествие,<br>
  чтобы найти этот артефакт и предотвратить его попадание в плохие руки.<br>
 <br>
-<br>
-<img src="images/startImage.jpg" alt="Путешественник" width="768" height="1152">
-
+<img src="images/startImage.jpg" alt="Путешественник" width="300" height="400">
 <br>
  <br>
- <a href="stepOne.jsp" class="btn btn-primary">Next</a></body>
+ <a href="stepOne.jsp" class="btn btn-primary">Next</a>
+<br>
+</body>
 </html>
