@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Путешествие</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
     <p>В поисках нужного места вы проходите большой</p>
@@ -18,6 +19,7 @@
     <br>
     <img src="images/travellingProcess.jpg" alt="Путешествие" width="300" height="400">
     <br>
-    <a href="stepThreeCastle.jsp" class="btn btn-danger">Next <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+    <br>
+    <a href="stepFourNearCastle.jsp" class="btn btn-primary">Next</a></body>
 </body>
 </html>

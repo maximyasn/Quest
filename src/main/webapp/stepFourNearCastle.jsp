@@ -9,6 +9,8 @@
 <html>
 <head>
     <title>У подножья замка</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 <body>
   <p>Вы стоите перед входом в замок. Страх развеялся с</p>
@@ -18,6 +20,7 @@
   <br>
   <img src="images/nearCastle.png" alt="У входа в замок" height="400" width="300">
   <br>
-  <a href="stepFiveThreeDoors.jsp" class="btn btn-danger">Next <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+  <br>
+  <a href="stepFiveThreeDoors.jsp" class="btn btn-primary">Next</a>
 </body>
 </html>
