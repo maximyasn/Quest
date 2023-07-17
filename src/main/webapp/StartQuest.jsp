@@ -21,7 +21,7 @@
  чтобы найти этот артефакт и предотвратить его попадание в плохие руки.<br>
 <br>
 <br>
-<img src="images/startImage.jpg" alt="Путешественник" height="200" width="200">
+<img src="images/startImage.jpg" alt="Путешественник" width="768" height="1152">
 
 <br>
  <a href="stepOne.jsp" class="btn btn-danger">Next <span class="glyphicon glyphicon-circle-arrow-right"></span></a>

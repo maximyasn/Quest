@@ -3,6 +3,7 @@ package com.quest.quest;
 
 import com.quest.quest.model.User;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,7 +21,9 @@ public class InitServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         User user = new User();
-        resp.sendRedirect("Registration.jsp");
+
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/Registration.jsp");
+        dispatcher.forward(req, resp);
 
 
     }
