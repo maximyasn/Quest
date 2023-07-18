@@ -19,5 +19,8 @@
   <br>
   <br>
   <a href="StartQuest.jsp" class="btn btn-primary">Начать сначала</a>
+  <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>

@@ -30,5 +30,7 @@
   <a href="artifactRoom.jsp" class="btn btn-success">Треугольник</a>
   <a href="trap.jsp" class="btn btn-warning">Звезда</a>
   <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>

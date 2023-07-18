@@ -24,5 +24,8 @@
 <a href="stepSixFirstDoor.jsp" class="btn btn-danger">Первая дверь<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 <a href="stepSevenSecondDoor.jsp" class="btn btn-danger">Вторая дверь<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 <a href="stepEightMysteryRoom.jsp" class="btn btn-danger">Третья дверь<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+<br>
+<br>
+<jsp:include page="userData.jsp"/>
 </body>
 </html>

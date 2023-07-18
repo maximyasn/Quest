@@ -34,5 +34,7 @@
   <a href="trap.jsp" class="btn btn-success">Человек</a>
   <a href="trap.jsp" class="btn btn-warning">Ребенок</a>
   <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>

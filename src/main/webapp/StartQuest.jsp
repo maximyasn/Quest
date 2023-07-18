@@ -28,10 +28,6 @@
  <a href="stepOne.jsp" class="btn btn-primary">Next</a>
 <br>
 <p>Текущий игрок</p>
-<%
- User user = (User)session.getAttribute("user");
-%>
- <p>Имя: <%= user.getName()%>;</p>
- <p>Количество игр: <%=user.getPlayCount()%></p>
+<jsp:include page="userData.jsp"/>
 </body>
 </html>

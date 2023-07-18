@@ -22,5 +22,8 @@
   <br>
   <br>
   <a href="stepFiveThreeDoors.jsp" class="btn btn-primary">Restart</a>
+  <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>

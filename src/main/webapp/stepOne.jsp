@@ -21,4 +21,7 @@
 <br>
 <br>
 <a href="stepTwo.jsp" class="btn btn-primary">Next</a></body>
+<br>
+<br>
+<jsp:include page="userData.jsp"/>
 </html>

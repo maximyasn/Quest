@@ -36,5 +36,7 @@
   <a href="knightShot.jsp" class="btn btn-info">Наручи рыцаря</a>
   <a href="wallShot.jsp" class="btn btn-success">Опора стены</a>
   <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>

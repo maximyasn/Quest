@@ -21,5 +21,8 @@
 <br>
 <br>
 <a href="victory.jsp" class="btn btn-primary">Выбраться из замка</a>
+<br>
+<br>
+<jsp:include page="userData.jsp"/>
 </body>
 </html>

@@ -39,5 +39,7 @@
   <a href="trap.jsp" class="btn btn-warning">Месяц</a>
   <a href="trap.jsp" class="btn btn-danger">*добровольно попасть в ловушку*</a>
   <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>

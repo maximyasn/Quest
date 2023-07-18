@@ -22,5 +22,8 @@
     <br>
     <br>
     <a href="stepThreeCastle.jsp" class="btn btn-primary">Next</a></body>
+    <br>
+    <br>
+    <jsp:include page="userData.jsp"/>
 </body>
 </html>

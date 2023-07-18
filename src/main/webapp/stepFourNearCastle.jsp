@@ -23,5 +23,8 @@
   <br>
   <br>
   <a href="stepFiveThreeDoors.jsp" class="btn btn-primary">Next</a>
+  <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>

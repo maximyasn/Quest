@@ -18,5 +18,8 @@
   <br>
   <br>
   <a href="stepFiveThreeDoors.jsp" class="btn btn-primary">Return</a>
+  <br>
+  <br>
+  <jsp:include page="userData.jsp"/>
 </body>
 </html>
