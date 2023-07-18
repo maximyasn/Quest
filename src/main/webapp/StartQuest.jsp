@@ -27,7 +27,7 @@
  <br>
  <a href="stepOne.jsp" class="btn btn-primary">Next</a>
 <br>
-<p>Текущий игрок</p>
+<br>
 <jsp:include page="userData.jsp"/>
 </body>
 </html>
