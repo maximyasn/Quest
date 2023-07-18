@@ -3,6 +3,9 @@ title {
     font-family: "Bradley Hand", cursive;
     color: crimson;
 }
+h1 {
+    text-align: center;
+}
 body {
     text-align: center;
     font-family: "Bradley Hand",cursive;
