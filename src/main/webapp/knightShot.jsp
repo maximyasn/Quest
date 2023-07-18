@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.quest.quest.model.User" %><%--
   Created by IntelliJ IDEA.
   User: maximyasnogorodskiy
   Date: 17.07.2023
@@ -20,7 +20,7 @@
 <img src="images/deathScreen.jpg" alt="Смерть" width="300" height="300">
 <br>
 <br>
-<a href="StartQuest.jsp" class="btn btn-primary">Начать сначала</a>
+<a href="death" class="btn btn-primary">Начать сначала</a>
 <br>
 <br>
 <jsp:include page="userData.jsp"/>

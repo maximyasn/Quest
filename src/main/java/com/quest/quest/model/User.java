@@ -15,4 +15,21 @@ public class User {
     private boolean secondKey = false;
     private boolean thirdKey = false;
 
+    public void setDefaultKeyParams() {
+        this.firstKey = true;
+        this.secondKey = false;
+        this.thirdKey = false;
+    }
+
+    public void setSecondDoorKeyParams() {
+        this.firstKey = false;
+        this.secondKey = true;
+        this.thirdKey = false;
+    }
+
+    public void setThirdDoorKeyParams() {
+        this.firstKey = false;
+        this.secondKey = false;
+        this.thirdKey = true;
+    }
 }

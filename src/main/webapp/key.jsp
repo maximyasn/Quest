@@ -23,23 +23,19 @@
     boolean firstKey = user.isFirstKey();
     boolean secondKey = user.isSecondKey();
     boolean thirdKey = user.isThirdKey();
-    request.setAttribute("firstKey", user.isFirstKey());
-    request.setAttribute("secondKey", user.isSecondKey());
-    request.setAttribute("thirdKey", user.isThirdKey());
+    request.setAttribute("firstKey", firstKey);
+    request.setAttribute("secondKey", secondKey);
+    request.setAttribute("thirdKey", thirdKey);
   %>
   <c:choose>
     <c:when test="${firstKey && !secondKey && !thirdKey}">
       <%
-        user.setFirstKey(false);
-        user.setSecondKey(true);
-        user.setThirdKey(false);
+        user.setSecondDoorKeyParams();
       %>
     </c:when>
     <c:when test="${!firstKey && secondKey && !thirdKey}">
       <%
-        user.setFirstKey(false);
-        user.setSecondKey(false);
-        user.setThirdKey(true);
+        user.setThirdDoorKeyParams();
       %>
     </c:when>
   </c:choose>
