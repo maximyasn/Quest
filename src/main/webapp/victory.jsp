@@ -1,4 +1,4 @@
-<%@ page import="com.quest.quest.model.User" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: maximyasnogorodskiy
   Date: 17.07.2023
