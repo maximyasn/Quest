@@ -1,3 +1,4 @@
+<%@ page import="com.quest.quest.model.User" %>
 <%--
   Created by IntelliJ IDEA.
   User: maximyasnogorodskiy
@@ -6,6 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title >Потерянный артефакт</title>
@@ -25,5 +27,11 @@
  <br>
  <a href="stepOne.jsp" class="btn btn-primary">Next</a>
 <br>
+<p>Текущий игрок</p>
+<%
+ User user = (User)session.getAttribute("user");
+%>
+ <p>Имя: <%= user.getName()%>;</p>
+ <p>Количество игр: <%=user.getPlayCount()%></p>
 </body>
 </html>

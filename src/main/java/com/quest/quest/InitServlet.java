@@ -11,20 +11,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+
 
 
 @WebServlet(name = "InitServlet", value = "/")
 public class InitServlet extends HttpServlet {
-    private final List<User> users = new ArrayList<>();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        User user = new User();
-
         RequestDispatcher dispatcher = req.getRequestDispatcher("/Registration.jsp");
         dispatcher.forward(req, resp);
-
 
     }
 }

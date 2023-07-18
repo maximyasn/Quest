@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class User {
     private String name;
-    private int playCount;
+    private int playCount = 0;
 
 
 }

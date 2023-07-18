@@ -10,7 +10,7 @@
 <h1>Регистрация</h1>
 
 <div class="nameForm">
-    <form class="form-horizontal">
+    <form class="form-horizontal" action="session" method="get">
         <fieldset>
 
             <!-- Form Name -->
@@ -30,7 +30,5 @@
         </fieldset>
     </form>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<a href="StartQuest.jsp">StartQuest</a>
 </body>
 </html>
