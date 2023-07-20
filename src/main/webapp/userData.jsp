@@ -15,6 +15,8 @@
         TABLE {
             width: 300px;
             border-collapse: collapse;
+            font-family: "Bradley Hand", serif;
+            color: black;
         }
         TD, TH {
             padding: 3px;

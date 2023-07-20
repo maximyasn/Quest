@@ -11,6 +11,7 @@
 <head>
     <title>Первая комната</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/stepOne.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <h1>Первое испытание</h1>
@@ -31,7 +32,7 @@
   <p>"Ключ хранится в сундуке с правильным ответом на загадку" -</p>
   <p>гласила надпись на другой настенной табличке.</p>
   <br>
-  <img src="images/fiveChestsRoom.jpg" alt="Пять сундуков" width="300" height="400">
+  <img src="images/fiveChestsRoom.jpg" alt="Пять сундуков" width="500" height="400">
   <br>
   <br>
   <a href="key.jsp" class="btn btn-primary">Год</a>

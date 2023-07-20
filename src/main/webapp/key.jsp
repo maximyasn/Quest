@@ -12,11 +12,12 @@
 <head>
     <title>Ключ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/stepOne.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <h1>Правильно! Теперь у вас в руках ключ от второй двери!</h1>
+  <h1>Правильно! Теперь у вас в руках ключ от следующей двери!</h1>
   <br>
-  <img src="images/key.jpg" alt="Ключ" width="300" height="400">
+  <img src="images/key.jpg" alt="Ключ" width="400" height="400">
   <br>
   <%
     User user = (User)session.getAttribute("user");
