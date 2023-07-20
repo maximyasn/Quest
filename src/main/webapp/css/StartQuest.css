@@ -10,3 +10,7 @@ body {
     color: darkorange;
     background-color: bisque;
 }
+table {
+    font-family: "Bradley Hand", serif;
+    color: black;
+}
