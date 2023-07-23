@@ -1,0 +1,18 @@
+2023-07-23 20:23:40.476 [http-nio-8081-exec-4] INFO  com.quest.quest.InitServlet - App started...
+2023-07-23 20:23:43.276 [http-nio-8081-exec-5] INFO  com.quest.quest.service.SessionServlet - New session started.
+2023-07-23 20:23:43.282 [http-nio-8081-exec-5] WARN  com.quest.quest.service.SessionServlet - True name
+2023-07-23 20:23:43.282 [http-nio-8081-exec-5] INFO  com.quest.quest.service.SessionServlet - User attribute has been added.
+2023-07-23 20:23:43.283 [http-nio-8081-exec-5] INFO  com.quest.quest.service.SessionServlet - Exit from SessionServlet.
+2023-07-23 20:24:36.660 [http-nio-8081-exec-5] INFO  com.quest.quest.InitServlet - App started...
+2023-07-23 20:24:39.237 [http-nio-8081-exec-6] INFO  com.quest.quest.service.SessionServlet - New session started.
+2023-07-23 20:24:39.239 [http-nio-8081-exec-6] WARN  com.quest.quest.service.SessionServlet - True name
+2023-07-23 20:24:39.240 [http-nio-8081-exec-6] INFO  com.quest.quest.service.SessionServlet - User attribute has been added.
+2023-07-23 20:24:39.242 [http-nio-8081-exec-6] INFO  com.quest.quest.service.SessionServlet - Exit from SessionServlet.
+2023-07-23 20:25:29.133 INFO  com.quest.quest.InitServlet - App started...
+2023-07-23 20:25:31.262 INFO  com.quest.quest.service.SessionServlet - New session started.
+2023-07-23 20:25:31.268 WARN  com.quest.quest.service.SessionServlet - True name
+2023-07-23 20:25:31.269 INFO  com.quest.quest.service.SessionServlet - User attribute has been added.
+2023-07-23 20:25:31.271 INFO  com.quest.quest.service.SessionServlet - Exit from SessionServlet.
+2023-07-23 20:26:24.240 INFO  com.quest.quest.service.DeathServlet - DeathServlet started
+2023-07-23 20:26:24.240 INFO  com.quest.quest.service.DeathServlet - User params changed to default.
+2023-07-23 20:26:24.258 INFO  com.quest.quest.service.DeathServlet - Exit from DeathServlet.

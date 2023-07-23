@@ -3,16 +3,19 @@
                name="XMLConfigTest" packages="org.apache.logging.log4j.test">
     <Filter type="ThresholdFilter" level="trace" />
 
+    <Properties>
+        <Property name="LOG_PATTERN">"%d{yyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n"</Property>
+        <Property name="APP_LOG_ROOT">/Users/maximyasnogorodskiy/Documents/IdeaUltimate/Quest</Property>
+    </Properties>
+
     <Appenders>
         <Console name="STDOUT">
             <Layout type="PatternLayout" pattern="%m %n" />
         </Console>
         <RollingFile name="rollingFile"
-                     fileName="/Users/maximyasnogorodskiy/Documents/IdeaUltimate/Quest/logs"
-                     filePattern="$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
-            <PatternLayout>
-                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
-            </PatternLayout>
+                     fileName="/Users/maximyasnogorodskiy/Documents/IdeaUltimate/Quest/logs/app.log"
+                     filePattern="app-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n"/>
             <Policies>
                 <TimeBasedTriggeringPolicy interval = "1" />
                 <SizeBasedTriggeringPolicy
@@ -23,8 +26,8 @@
 
     <Loggers>
         <Root level="INFO">
-            <AppenderRef ref="STDOUT" />
-            <AppenderRef ref="rollingFile" />
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="rollingFile"/>
         </Root>
     </Loggers>
 
